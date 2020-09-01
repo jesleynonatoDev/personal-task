@@ -1,0 +1,40 @@
+{
+  "name": "personal-task",
+  "version": "1.0.0",
+  "description": "Estudos e desenvolvimento pessoal",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jesleynonatoDev/personal-task.git"
+  },
+  "keywords": [
+    "nodejs",
+    "api",
+    "rest",
+    "devfun"
+  ],
+  "author": "Jesley Nonato",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jesleynonatoDev/personal-task/issues"
+  },
+  "homepage": "https://github.com/jesleynonatoDev/personal-task#readme",
+  "devDependencies": {
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-react": "^7.20.3",
+    "eslint-plugin-react-hooks": "^4.0.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "consign": "^0.1.6",
+    "express": "^4.17.1",
+    "express-validator": "^6.6.1",
+    "nodemon": "^2.0.4"
+  }
+}
