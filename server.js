@@ -1,5 +1,6 @@
 require('dotenv-safe').config();
-const conexao = require('./src/infra/conexao')
+const conexao = require('./src/infra/database/conexao');
+const Tabelas = require('./src/infra/database/tabelas');
 const configServer = require('./src/server/config')
 
 const app = configServer()
@@ -10,6 +11,7 @@ conexao.connect(erro => {
   }
 
   console.log('conectou no banco')
+  Tabelas.init(conexao)
 })
 
 app.listen(process.env.PORT, () => {
